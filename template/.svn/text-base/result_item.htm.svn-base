@@ -1,0 +1,8 @@
+<LI>
+<H3>
+	<A href="%(url)s">%(title)s</A><BR>
+</H3>
+	</FONT><FORM ACTION="/cgi-bin/cache.py">
+		<FONT size="-1" color="green">%(url)s - <A href="%(path)s/%(cache_script)s?urlid=%(urlid)d">Cached %(num)d<A>
+	</FORM>
+</LI>
